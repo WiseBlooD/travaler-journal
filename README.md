@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 # 
-
+fixed merge
 ## Project setup
 ```
 npm install
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# travaler-journal
+>>>>>>> ee45b1eeb1b115f84033e3b6e0211fd4bc17a884
