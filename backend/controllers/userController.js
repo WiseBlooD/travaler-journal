@@ -31,3 +31,4 @@ const updateUser = async (req, res) => {
 };
 
 module.exports = { getUser, updateUser };
+
