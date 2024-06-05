@@ -5,8 +5,8 @@ const SECRET_KEY = process.env.SECRET_KEY || 'your_secret_key';
 const REFRESH_SECRET_KEY = process.env.REFRESH_SECRET_KEY || 'your_refresh_secret_key';
 
 const generateTokens = (user) => {
-    const accessToken = jwt.sign({ id: user.id }, SECRET_KEY, { expiresIn: '1h' }); // 1 час
-    const refreshToken = jwt.sign({ id: user.id }, REFRESH_SECRET_KEY, { expiresIn: '7d' }); // 7 дней
+    const accessToken = jwt.sign({ id: user.id }, SECRET_KEY, { expiresIn: '1h' }); 
+    const refreshToken = jwt.sign({ id: user.id }, REFRESH_SECRET_KEY, { expiresIn: '7d' }); 
     return { accessToken, refreshToken };
 };
 
