@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+В данный момент в разработке
 # 
 fixed merge
 ## Project setup
